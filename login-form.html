@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(51, 184, 224);
+        }
+    </style>
+</head>
+<body>
+    <center>
+
+        <form action="javascript:(0)">
+
+            <h1>Please log in to Continue</h1>
+            <br>
+            <input id="login-email" type="email" placeholder="Email">
+            <br>
+            <br>
+            <input id="login-password" type="password" placeholder="Password">
+            <br>
+            <br>
+            <input type="submit" id="login-submit" onclick="mysubmitLogin()">
+
+        </form>
+
+        <script>
+
+            function mysubmitLogin() {
+
+                var email = document.getElementById("login-email").value;
+                var password = document.getElementById("login-password").value;
+                if (email == "<EMAIL>" || password == "<PASSWORD>") {
+
+                }
+
+            }
+
+        </script>
+
+    </center>
+</body>
+</html>
