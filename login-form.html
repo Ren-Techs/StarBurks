@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <center>
@@ -14,29 +15,17 @@
 
             <h1>Please log in to Continue</h1>
             <br>
-            <input id="login-email" type="email" placeholder="Email">
+            <input id="login-email" type="text" placeholder="Email">
             <br>
             <br>
-            <input id="login-password" type="password" placeholder="Password">
+            <input id="login-password" type="text" placeholder="Password">
             <br>
             <br>
             <input type="submit" id="login-submit" onclick="mysubmitLogin()">
 
         </form>
 
-        <script>
-
-            function mysubmitLogin() {
-
-                var email = document.getElementById("login-email").value;
-                var password = document.getElementById("login-password").value;
-                if (email == "<EMAIL>" || password == "<PASSWORD>") {
-
-                }
-
-            }
-
-        </script>
+        <h1 id="output"></h1>
 
     </center>
 </body>
