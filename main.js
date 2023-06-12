@@ -16,7 +16,10 @@ function mysubmitLogin() {
 
     for (i = 0; i < EmailDataBase.length +1 ; i++) {
         if (EmailDataBase[i].email === email) {
+            console.log("true email")
             if (EmailDataBase[i].password === password) { 
+                console.log("true pass")
+                console.log("logged in")
                 window.location.href = "index.html";
                 break;
             }
